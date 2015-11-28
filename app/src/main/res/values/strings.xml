@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecipeMaker3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_my_recipe">AddMyRecipeActivity</string>
+    <string name="title_activity_get_recipe_name">getRecipeName</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+</resources>
