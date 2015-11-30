@@ -9,6 +9,12 @@
     tools:context="com.example.user.recipemaker.AddMyRecipeActivity"
     android:weightSum="1">
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_gravity="right" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
