@@ -31,6 +31,10 @@
             android:name=".getRecipeName"
             android:label="@string/title_activity_get_recipe_name" >
         </activity>
+        <activity
+            android:name=".showMyMenuActivity"
+            android:label="@string/title_activity_show_my_menu" >
+        </activity>
     </application>
 
 </manifest>
