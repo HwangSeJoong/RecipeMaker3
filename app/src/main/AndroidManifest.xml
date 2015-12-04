@@ -35,6 +35,14 @@
             android:name=".showMyMenuActivity"
             android:label="@string/title_activity_show_my_menu" >
         </activity>
+        <activity
+            android:name=".AddMeat"
+            android:label="@string/title_activity_add_meat" >
+        </activity>
+        <activity
+            android:name=".AddFish"
+            android:label="@string/title_activity_add_fish" >
+        </activity>
     </application>
 
 </manifest>

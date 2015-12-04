@@ -21,20 +21,32 @@
         android:layout_height="100dp"
         android:text="재료보기"
         android:id="@+id/button4"
+        android:hint="재료보기"
         android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:hint="재료보기" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="280dp"
+        android:layout_width="500dp"
+        android:layout_height="800dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
         android:id="@+id/textView2"
-        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/deletefood"
         android:layout_centerHorizontal="true"
-        android:paddingLeft="100dp"
-        android:textSize="20dp" />
+        android:textColor="#292725"
+        android:singleLine="true"
+        android:gravity="center|top" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="삭제하기"
+        android:id="@+id/deletefood"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

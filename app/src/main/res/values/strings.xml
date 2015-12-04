@@ -7,4 +7,6 @@
     <string name="title_activity_get_recipe_name">getRecipeName</string>
     <string name="title_activity_loading">LoadingActivity</string>
     <string name="title_activity_show_my_menu">showMyMenuActivity</string>
+    <string name="title_activity_add_meat">AddMeat</string>
+    <string name="title_activity_add_fish">AddFish</string>
 </resources>
