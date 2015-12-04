@@ -29,13 +29,13 @@
         </activity>
         <activity
             android:name=".getRecipeName"
-            android:windowSoftInputMode="stateHidden"
-            android:label="@string/title_activity_get_recipe_name" >
+            android:label="@string/title_activity_get_recipe_name"
+            android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
             android:name=".showMyMenuActivity"
-            android:windowSoftInputMode="stateHidden"
-            android:label="@string/title_activity_show_my_menu" >
+            android:label="@string/title_activity_show_my_menu"
+            android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
             android:name=".AddMeat"
@@ -44,6 +44,14 @@
         <activity
             android:name=".AddFish"
             android:label="@string/title_activity_add_fish" >
+        </activity>
+        <activity
+            android:name=".AddVegetable"
+            android:label="@string/title_activity_add_vegetable" >
+        </activity>
+        <activity
+            android:name=".AddSeasoning"
+            android:label="@string/title_activity_add_seasoning" >
         </activity>
     </application>
 

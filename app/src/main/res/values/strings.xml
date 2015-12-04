@@ -9,4 +9,6 @@
     <string name="title_activity_show_my_menu">showMyMenuActivity</string>
     <string name="title_activity_add_meat">AddMeat</string>
     <string name="title_activity_add_fish">AddFish</string>
+    <string name="title_activity_add_vegetable">AddVegetable</string>
+    <string name="title_activity_add_seasoning">AddSeasoning</string>
 </resources>
