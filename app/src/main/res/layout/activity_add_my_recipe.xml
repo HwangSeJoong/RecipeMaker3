@@ -20,24 +20,40 @@
         android:layout_height="match_parent">
 
         <ImageButton
-            android:layout_width="517dp"
-            android:layout_height="389dp"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
             android:id="@+id/meat"
-            android:layout_gravity="center_horizontal|top"
+            android:layout_gravity="left|top"
             android:src="@drawable/meat" />
 
         <ImageButton
-            android:layout_width="529dp"
-            android:layout_height="371dp"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
             android:id="@+id/fish"
-            android:layout_gravity="center"
+            android:layout_gravity="right|top"
             android:src="@drawable/fish" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="350dp"
             android:id="@+id/vegetable"
-            android:layout_gravity="center_horizontal|bottom"
+            android:layout_gravity="left|center_vertical"
             android:src="@drawable/vegetable" />
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:id="@+id/seasoning"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/seasoning" />
+
+        <ImageButton
+            android:layout_width="570dp"
+            android:layout_height="200dp"
+            android:id="@+id/savebtn"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/saveman"
+            android:layout_marginBottom="50dp" />
+
     </FrameLayout>
 </LinearLayout>

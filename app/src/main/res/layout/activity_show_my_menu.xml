@@ -33,12 +33,11 @@
         android:id="@+id/textView2"
         android:textSize="20dp"
         android:layout_alignWithParentIfMissing="true"
-        android:layout_marginTop="66dp"
-        android:layout_below="@+id/deletefood"
-        android:layout_centerHorizontal="true"
         android:textColor="#292725"
-        android:singleLine="true"
-        android:gravity="center|top" />
+        android:singleLine="false"
+        android:gravity="center|top"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="200dp"

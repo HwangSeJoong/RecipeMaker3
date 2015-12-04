@@ -29,10 +29,12 @@
         </activity>
         <activity
             android:name=".getRecipeName"
+            android:windowSoftInputMode="stateHidden"
             android:label="@string/title_activity_get_recipe_name" >
         </activity>
         <activity
             android:name=".showMyMenuActivity"
+            android:windowSoftInputMode="stateHidden"
             android:label="@string/title_activity_show_my_menu" >
         </activity>
         <activity
